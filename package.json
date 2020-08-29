@@ -1,0 +1,28 @@
+{
+  "name": "inteli",
+  "version": "1.0.0",
+  "description": "Challenge to implement data mining with Puppeteer",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "cross-env NODE_ENV=develop nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julio Cesar Moreno Guillen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-pino-logger": "^5.0.0",
+    "mongoose": "^5.10.1",
+    "pino": "^6.5.1",
+    "puppeteer": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
